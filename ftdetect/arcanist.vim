@@ -1,1 +1,1 @@
-au BufNewFile,BufRead $TMPDIR/*/new-commit setlocal filetype=arcanistdiff
+au BufNewFile,BufRead /tmp/*/new-commit setlocal filetype=arcanistdiff
