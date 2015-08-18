@@ -1,5 +1,5 @@
-if empty($TMPDIR)
-    let s:tmp = $TMPDIR
+if !empty($TMPDIR)
+    let s:tmp = "$TMPDIR"
 else
     let s:tmp = '/tmp'
 endif
