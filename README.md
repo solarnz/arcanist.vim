@@ -1,7 +1,8 @@
 # arcanist.vim #
 
 An arcanist plugin for vim. At the moment it only provides a syntax file for
-arcanist differential files.
+arcanist differential files and filetype detection for arcanist's JSON
+configuration files.
 
 ## Installation ##
 
